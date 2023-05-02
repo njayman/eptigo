@@ -66,22 +66,7 @@ export default function Home() {
             Eptigo
           </h1>
           <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-400">
-            EptiGo has a significant concern in providing top-notch software
-            solution services and products. We are specialized in creating
-            innovative software solutions that meet clients' unique business
-            needs and exceed their expectations. Our team of experienced
-            professionals is passionate about using the latest technology to
-            develop custom software solutions that are tailored to our clients'
-            specific business requirements. Whether you need a simple or a
-            complex software solution, we have the expertise to deliver the
-            perfect solution on time and within budget. We are excited to work
-            with you and help you to achieve your business goals through
-            innovative software solutions. Contact us (Click on this contact us,
-            user will be directed to contact us segment) to learn more about how
-            we can help you to bring your ideas to reality. Along with providing
-            software solutions we have our own products like EptiCode, which is
-            an online platform for tech savvy freshers to prepare them for the
-            technical interview and find a lot of job circulars.
+            {`EptiGo has a significant concern in providing top-notch software solution services and products. We are specialized in creating innovative software solutions that meet clients unique business needs and exceed their expectations. Our team of experienced professionals is passionate about using the latest technology to develop custom software solutions that are tailored to our clients' specific business requirements. Whether you need a simple or a complex software solution, we have the expertise to deliver the perfect solution on time and within budget. We are excited to work with you and help you to achieve your business goals through innovative software solutions. Contact us (Click on this contact us, user will be directed to contact us segment) to learn more about how we can help you to bring your ideas to reality. Along with providing software solutions we have our own products like EptiCode, which is an online platform for tech savvy freshers to prepare them for the technical interview and find a lot of job circulars.`}
           </p>
           <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
             <Link
@@ -120,7 +105,10 @@ export default function Home() {
                 src: "/assets/images/ai.jpg",
               },
             ].map((s: { title: string; src: string }, key) => (
-              <div key={key} className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <div
+                key={key}
+                className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+              >
                 <div className="flex flex-col items-center pb-10">
                   <Image
                     className="w-24 h-24 my-3 rounded-full shadow-lg"
