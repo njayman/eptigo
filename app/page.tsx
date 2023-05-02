@@ -120,7 +120,7 @@ export default function Home() {
                 src: "/assets/images/ai.jpg",
               },
             ].map((s: { title: string; src: string }, key) => (
-              <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <div key={key} className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                 <div className="flex flex-col items-center pb-10">
                   <Image
                     className="w-24 h-24 my-3 rounded-full shadow-lg"
